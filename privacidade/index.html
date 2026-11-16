@@ -18,7 +18,8 @@ section { background: var(--card); border: 1px solid var(--borda); border-radius
 h2 { font-size: 19px; margin: 0 0 10px; }
 p { margin: 0 0 10px; } p:last-child { margin-bottom: 0; }
 ul { margin: 0 0 10px; padding-left: 20px; } li { margin: 0 0 6px; }
-a { color: var(--acento); overflow-wrap: anywhere; }
+a { color: var(--acento); overflow-wrap: break-word; }
+@media (max-width: 420px) { section { padding: 18px 16px; } }
 footer { color: var(--tx2); font-size: 14px; margin-top: 24px; }
 </style>
 </head>
@@ -26,11 +27,11 @@ footer { color: var(--tx2); font-size: 14px; margin-top: 24px; }
 <main>
 <p class="marca">VYBE Chat</p>
 <h1>Política de privacidade</h1>
-<p class="data">Última atualização: 10 de novembro de 2026</p>
+<p class="data">Última atualização: 16 de novembro de 2026</p>
 
 <section>
 <h2>1. Quem somos</h2>
-<p>O VYBE Chat é um aplicativo de atendimento ao cliente. O responsável pelos dados pessoais tratados no app (o controlador, nos termos da Lei Geral de Proteção de Dados, Lei 13.709/2018) é o desenvolvedor do VYBE Chat, identificado na página do app na Google Play. Para qualquer assunto de privacidade, escreva para <a href="mailto:privacidade.vybe.sculptor451@passmail.com">privacidade.vybe.sculptor451@passmail.com</a>.</p>
+<p>O VYBE Chat é um aplicativo de atendimento ao cliente. O responsável pelos dados pessoais tratados no app (o controlador, nos termos da Lei Geral de Proteção de Dados, Lei 13.709/2018) é o desenvolvedor do VYBE Chat, identificado na página do app na Google Play. Para qualquer assunto de privacidade, escreva para <a href="mailto:privacidade.vybe.sculptor451@passmail.com">privacidade.vybe.sculptor451@<wbr>passmail.com</a>.</p>
 </section>
 
 <section>
@@ -62,7 +63,7 @@ footer { color: var(--tx2); font-size: 14px; margin-top: 24px; }
 <ul>
 <li>a empresa de hospedagem dos nossos servidores, onde a conversa e os anexos ficam guardados;</li>
 <li>a Cloudflare, que protege e entrega o tráfego entre o app e os nossos servidores;</li>
-<li>o Google (Firebase Cloud Messaging), que entrega as notificações no seu aparelho;</li>
+<li>o Google (Firebase Cloud Messaging), que entrega as notificações no seu aparelho. A notificação leva só o aviso de nova mensagem: o texto e o nome não passam pelo Google;</li>
 <li>o nosso sistema de gestão de clientes, de onde vêm os dados do seu plano.</li>
 </ul>
 <p>Também podemos fornecer dados quando uma lei ou uma ordem judicial exigir.</p>
@@ -74,6 +75,7 @@ footer { color: var(--tx2); font-size: 14px; margin-top: 24px; }
 <li><strong>Enquanto a conta existe:</strong> guardamos a conversa e os anexos para que o histórico continue disponível para você e para o atendimento.</li>
 <li><strong>Depois que você apaga a conta:</strong> o seu acesso é encerrado na hora e a conversa sai do app. Uma cópia da conversa fica guardada por 2 anos numa área separada, com o seu nome e telefone cifrados, apenas para segurança, prevenção a fraudes e defesa em eventual disputa. Depois de 2 anos, ela é apagada automaticamente. Se você criar uma conta nova com o mesmo telefone, o histórico antigo não volta.</li>
 <li><strong>Registros de acesso:</strong> guardados por 6 meses, como exige o Marco Civil da Internet (Lei 12.965/2014).</li>
+<li><strong>Cópias de segurança do sistema:</strong> guardadas por até 30 dias e depois apagadas automaticamente. Por isso, dados apagados podem continuar nessas cópias por no máximo 30 dias.</li>
 <li><strong>No seu aparelho:</strong> o app guarda uma cópia da conversa para abrir mais rápido. Ela é apagada quando você sai da conta ou desinstala o app.</li>
 </ul>
 </section>
@@ -85,7 +87,7 @@ footer { color: var(--tx2); font-size: 14px; margin-top: 24px; }
 
 <section>
 <h2>7. Seus direitos</h2>
-<p>Pela LGPD, você pode pedir a qualquer momento: a confirmação de que tratamos os seus dados, o acesso a eles, a correção de dados errados, a eliminação, a portabilidade e informações sobre com quem compartilhamos. Escreva para <a href="mailto:privacidade.vybe.sculptor451@passmail.com">privacidade.vybe.sculptor451@passmail.com</a>. Respondemos em até 15 dias. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD).</p>
+<p>Pela LGPD, você pode pedir a qualquer momento: a confirmação de que tratamos os seus dados, o acesso a eles, a correção de dados errados, a eliminação, a portabilidade e informações sobre com quem compartilhamos. Escreva para <a href="mailto:privacidade.vybe.sculptor451@passmail.com">privacidade.vybe.sculptor451@<wbr>passmail.com</a>. Respondemos em até 15 dias. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD).</p>
 </section>
 
 <section id="exclusao">
@@ -105,7 +107,7 @@ footer { color: var(--tx2); font-size: 14px; margin-top: 24px; }
 
 <section>
 <h2>11. Contato</h2>
-<p>VYBE Chat · <a href="mailto:privacidade.vybe.sculptor451@passmail.com">privacidade.vybe.sculptor451@passmail.com</a></p>
+<p>VYBE Chat · <a href="mailto:privacidade.vybe.sculptor451@passmail.com">privacidade.vybe.sculptor451@<wbr>passmail.com</a></p>
 </section>
 
 <footer>VYBE Chat · <a href="../excluir-conta/">Excluir conta</a></footer>
